@@ -11,11 +11,11 @@ if (yourLogin === null) {
     if (yourPassword === null) {
         alert('Canceled');
     } else if (yourLogin.toLowerCase() === 'user' && yourPassword === 'UserPass') {
-        hours > 5 && hours < 20 ? alert('Good day, dear User!') : alert('Good evening, dear User!');
+        hours > 5 && hours < 20 ? alert('Good day, my baby!') : alert('Good evening, my little girl!');
     }
         else if (yourLogin.toLowerCase() === 'admin' && yourPassword === 'RootPass') {
         
-        hours > 5 && hours < 20 ? alert('Good day, dear Admin!') : alert('Good evening, dear Admin!');
+        hours > 5 && hours < 20 ? alert('Good day, my Love!') : alert('Good evening, my Goldfish!');
         
     } else {
         alert('Wrong password');
