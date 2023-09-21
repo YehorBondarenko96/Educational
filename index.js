@@ -1,29 +1,14 @@
-const yourLogin = prompt('Do you want to sign in?');
-const hours = new Date().getHours()
-let yourPassword = '';
-if (yourLogin === null) {
-    alert("Canceled");
-} else if (yourLogin.length < 4) {
-    alert("I don't know any users having name length less than 4 symbols");
-} else if (yourLogin.toLowerCase() === 'user' || yourLogin.toLowerCase() === 'admin') {
-    yourPassword = prompt('Enter your password');
-
-    if (yourPassword === null) {
-        alert('Canceled');
-    } else if (yourLogin.toLowerCase() === 'user' && yourPassword === 'UserPass') {
-        hours > 5 && hours < 20 ? alert('Good day, my baby!') : alert('Good evening, my little girl!');
-    }
-        else if (yourLogin.toLowerCase() === 'admin' && yourPassword === 'RootPass') {
-        
-        hours > 5 && hours < 20 ? alert('Good day, my Love!') : alert('Good evening, my Goldfish!');
-        
-    } else {
-        alert('Wrong password');
-                }
-
-} else {
-    alert("I don’t know you");
-}
 
 
+const img = document.querySelector('.img');
 
+img.addEventListener('mouseenter', () => {
+  
+  img.style.animation = 'scrol 2s linear infinite alternate both';
+  
+
+});
+
+img.addEventListener('mouseleave', () => {
+  img.style.animation = 'scrol 2s linear infinite alternate paused both';
+})
