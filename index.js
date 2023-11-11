@@ -11,4 +11,7 @@ img.addEventListener('mouseenter', () => {
 
 img.addEventListener('mouseleave', () => {
   img.style.animation = 'scrol 2s linear infinite alternate paused both';
-})
+});
+
+
+
